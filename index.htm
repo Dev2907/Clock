@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--The commented part is for milliseconds if you want to have milliseconds in timer than just 
+change the comment lines to normal lines-->
+<head>
+    <title>Clock</title>
+    <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+    <div class="text">Clock</div>
+    <div class="container">
+        <div id="clockhours" class="Clock"></div>
+        <div id="clockminutes" class="Clock"></div>
+        <div id="clockseconds" class="Clock"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text">StopWatch</div>
+    <div class="container">
+        <div class="rowcontainer">
+            <div><button onclick="stopwatch()">Start/Stop</button></div>
+            <div><button onclick="stopwatchClear()">Clear</button></div>
+        </div>
+        <div class="Clock" id="stopwatchHours"></div>
+        <div class="Clock" id="stopwatchMinutes"></div>
+        <div class="Clock" id="stopwatchSeconds"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text">Timer</div>
+    <div class="container" id="timer_container">
+        <div class="rowcontainer">
+            <div><button onclick="timer()">Start/Stop</button></div>
+            <div><button onclick="clearTimer()">Clear</button></div>
+        </div>
+        <div class="rowcontainer">
+            <div ><button onclick="setTimer('u1')"><img src="up.png"></button></div>
+            <div class="Clock" id="timerHours"></div>
+            <div ><button onclick="setTimer('d1')"><img src="down.png"></button></div>
+        </div>
+        <div class="rowcontainer">
+            <div ><button onclick="setTimer('u2')"><img src="up.png"></button></div>
+            <div class="Clock" id="timerMinutes"></div>
+            <div ><button onclick="setTimer('d2')"><img src="down.png"></button></div>
+        </div>
+        <div class="rowcontainer">
+            <div ><button onclick="setTimer('u3')"><img src="up.png"></button></div>
+            <div class="Clock" id="timerSeconds"></div>
+            <div ><button onclick="setTimer('d3')"><img src="down.png"></button></div>
+        </div>
+    </div>
+    <script src="Myjavascript.js"></script>
+</body>
