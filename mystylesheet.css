@@ -1,0 +1,52 @@
+.text{
+    margin:10px;
+    font-size: 25px;
+    border:1px solid black;
+    width: 200px;
+    margin:auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#timer_container{
+    margin-top:50px;
+}
+
+.rowcontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rowcontainer > div > button {
+    width: 90px;
+    height: 40px;
+    background-color: #1d1d1d;
+    color:white;
+    border-radius: 5px;
+    border-width:1px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    margin:3px;
+}
+
+
+.container{
+    display:flex;
+    flex-wrap:nowrap;
+    height:110px;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+}
+.Clock{
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    font-size: 40px;
+    background-color: #1d1d1d;
+    border-radius: 3px;
+    text-align: center;
+    line-height:100px;
+    color:white;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
